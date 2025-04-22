@@ -32,7 +32,7 @@ const Weather = ({ city }) => {
                 <p>Loading weather for {city}...</p>
             ) : weatherData ? (
                 <>
-                    <h3>Weather in {weatherData.name}</h3>
+                    
                     <p>Temperature: {weatherData.main.temp}°C</p>
                     <p>Condition: {weatherData.weather[0].description}</p>
                 </>
