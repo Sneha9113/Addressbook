@@ -24,6 +24,7 @@ const Weather = ({ city }) => {
         };
 
         fetchWeather();
+        
     }, [city]);
 
     return (
