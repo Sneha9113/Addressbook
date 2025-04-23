@@ -20,7 +20,7 @@ const Weather = ({ city }) => {
                 console.error("Error fetching weather:", error);
                 setWeatherData(null);
             }
-            
+            setLoading(false);
         };
 
         fetchWeather();
